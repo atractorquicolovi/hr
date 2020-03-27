@@ -1,6 +1,6 @@
 import {Heartbeat} from './heartbeat.js';
 
-const OPENCV_URI = "http://docs.opencv.org/master/opencv.js";
+const OPENCV_URI = "https://docs.opencv.org/master/opencv.js";
 const HAARCASCADE_URI = "haarcascade_frontalface_alt.xml"
 
 // Load opencv when needed
