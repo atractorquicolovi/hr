@@ -105,7 +105,7 @@ if (window) {
 // if app is running in a node server environment then package Spacebrew library as a module.
 // 		WebSocket module (ws) needs to be saved in a node_modules so that it can be imported.
 if (!window && module) {
-	WebSocket = require("wss");
+	WebSocket = require("ws");
 	module.exports = {
 		Spacebrew: Spacebrew
 	};
